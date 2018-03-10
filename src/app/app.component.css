@@ -1,0 +1,14 @@
+.container{
+  padding-top: 40px;
+}
+.box_termo{
+   border-top-style: dashed;
+   border-color: #d3d3d3;
+   padding-top: 15px;
+}
+.box_termo .input_box {
+  text-align: center;
+}
+.box_termo button{
+  color:white;
+}
