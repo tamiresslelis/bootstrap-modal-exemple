@@ -8,10 +8,12 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+    termo: boolean = false;
   public modalRef: BsModalRef;
   constructor(private modalService: BsModalService) {}
 
   public openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);
   }
+
 }
